@@ -1,45 +1,43 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+# lookup-management-ui
+Projeto desenvolvido em Javascript com a biblioteca React, consistindo numa interface com o proprietário da plataforma de vendas online Lookup. Consome a API lookup-api.
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+### Introdução
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+Estas instruções lhe permitirão obter uma cópia do projeto e executá-lo na sua máquina local para desenvolvimento e testes. Veja as notas de compilação para saber como compilar o projeto.
 
----
+## Pré-requisitos
 
-## Edit a file
+Por se tratar de um cliente, este projeto consome os serviços de uma API. No entanto, para testar e desenvolver esse projeto é possível que a API seja emulada pelo JSON SERVER, um programa que pode ser instalado na sua máquina através no comando `npm install json-server -g` e `npm install yarn -g`. O comando NPM, por sua vez, pode ser instalado através do comando `sudo apt install nodejs` (no GNU/LINUX distribuição Debian/Ubuntu/derivados).
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+## Instalação
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+Após o download deste projeto, dentro de sua pasta principal deve ser executado o comando `yarn`, para que seja feito o download e a instalação das dependências do projeto.
 
----
+Após a instalação das dependências, basta executar os passos informados nas notas a seguir.
 
-## Create a file
+## Servidor de desenvolvimento
 
-Next, you’ll add a new file to this repository.
+Execute `yarn start`, no terminal de comando, para iniciar o servidor de desenvolvimento. Acesse o endereço web `http://localhost:3000/`. A aplicação será atualizada automaticamente caso seja alterado o código fonte.
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+Para parar a execução do servidor de desenvolvimento, pressione `Ctrl + C`, no terminal de comando.
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
+## Compilação
 
----
+Execute `yarn build` para compilar o projeto. O projeto compilado poderá ser encontrado no diretório build/.
 
-## Clone a repository
+## Ajuda
 
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
+Para obter mais informações sobre a biblioteca React, acesse [React Docs](https://pt-br.reactjs.org/docs/getting-started.html).
 
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
+## Licença
 
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+Este projeto está licenciado sob os termos da [GNU General Public License v3.0](http://licencas.softwarelivre.org/gpl-3.0.pt-br.html).
+
+## Autor
+
+* **Moacir Costa** - *Desenvolvedor inicial*
+
+## Agradecimentos
+
+* A Jesus Cristo, que me deu fé, coragem, inteligência e determinação para chegar até aqui
+* Ao meu irmão, Claudio Costa, que me ensinou a desenvolver sistemas web nos seus momentos de folga
